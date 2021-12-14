@@ -1,1 +1,1 @@
-# ea-12-web-storages
+# new-webstorages
