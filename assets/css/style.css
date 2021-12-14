@@ -1,0 +1,18 @@
+
+section{
+    padding:50px;
+    width:40%;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+
+.form-control{
+    width:100% !important;
+}
+
+form {
+    width: 90%;
+}
+.d-none{
+    display:none !important;
+}

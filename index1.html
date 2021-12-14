@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>promises</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <template class="single-post">
+        
+    </template>
+    <section class="d-flex justify-content-center align-items-center">
+        <form action="" id="formData">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="content">Content</label>
+                <textarea name="content" id="content" rows="3" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info display" id="submitbtn">Add</button>
+            <button class="btn btn-info d-none" id="udatebtn">Update</button>
+        </form>
+    </section>
+    <section class="available-post d-flex flex-column justify-content-center align-items-center mt-5">
+        <button class="btn btn-success">Fetch post</button>
+        <ul class="post p-0"></ul>
+    </section>
+
+    <script src="./assets/js/app1.js"></script>
+</body>
+
+</html>
